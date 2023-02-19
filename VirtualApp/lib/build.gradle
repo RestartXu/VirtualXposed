@@ -27,6 +27,11 @@ android {
             path file("src/main/jni/Android.mk")
         }
     }
+    externalNativeBuild {
+        cmake {
+            version '3.25.1'
+        }
+    }
     lintOptions {
         //IJobService need NewApi
         warning 'NewApi','OnClick'

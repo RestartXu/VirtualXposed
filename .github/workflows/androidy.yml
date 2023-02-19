@@ -15,6 +15,7 @@ jobs:
       with:
         java-version: 1.8
     - run: |
+        uname -a
         ls -l
         pwd
         cd /home/runner/work/VirtualXposed/VirtualXposed/VirtualApp && chmod +x ./gradlew

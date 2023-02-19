@@ -3,7 +3,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
-    
+    ndkVersion "24.0.8215888"
+    ndkPath "/home/runner/work/VirtualXposed/VirtualXposedandroid-ndk-r24"
 
     defaultConfig {
         minSdkVersion 21
@@ -16,7 +17,7 @@ android {
             }
         }
      
-     ndkPath "/home/runner/work/VirtualXposed/VirtualXposed/android-ndk-r24"
+     
     }
   
  

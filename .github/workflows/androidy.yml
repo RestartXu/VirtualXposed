@@ -18,7 +18,7 @@ jobs:
         wget https://dl.google.com/android/repository/android-ndk-r24-linux.zip
         unzip android-ndk-r24-linux.zip
         ls
-        cd android-ndk-r24-linux.zip
+        cd android-ndk-r24-linux
         ls
         uname -a
         ls -l

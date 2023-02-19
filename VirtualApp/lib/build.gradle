@@ -16,7 +16,7 @@ android {
             }
         }
      ndkVersion "24.0.8215888"
-     ndk path "/home/runner/work/VirtualXposed/VirtualXposed/android-ndk-r24-linux"
+     ndk path "/home/runner/work/VirtualXposed/VirtualXposed/android-ndk-r24"
     }
   
  

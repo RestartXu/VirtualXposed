@@ -15,6 +15,8 @@ android {
                 abiFilters "arm64-v8a", "x86_64"
             }
         }
+     ndkVersion "24.0.8215888"
+     ndk path "/home/runner/work/VirtualXposed/VirtualXposed/android-ndk-r24-linux"
     }
   
  

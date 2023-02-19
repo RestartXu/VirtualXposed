@@ -17,13 +17,7 @@ android {
         }
     }
   
-        externalNativeBuild {
-            cmake {
-//                cppFlags "-frtti -fexceptions"
-                cppFlags "-frtti -fexceptions -std=c++11"
-                arguments "-DLIB_NAME=ratelnative"
-            }
-        }
+ 
     buildTypes {
         release {
             minifyEnabled false
@@ -35,11 +29,7 @@ android {
             path file("src/main/jni/Android.mk")
         }
     }
-    externalNativeBuild {
-        cmake {
-            version '3.25.1'
-        }
-    }
+    
     lintOptions {
         //IJobService need NewApi
         warning 'NewApi','OnClick'

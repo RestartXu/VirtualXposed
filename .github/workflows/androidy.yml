@@ -17,6 +17,8 @@ jobs:
         java-version: 11
         cache: gradle
     - run: |
+        ls -l
+        pwd
         cd VirtualApp && chmod +x ./gradlew
         cd VirtualApp && ./gradlew assembleRelease
     - uses: actions/upload-artifact@v3
